@@ -2,7 +2,7 @@
 
 Online supplementary material to the article
 
-> Müller, R., Templ, M., & Strobl, C. (2026). *Anonymization of Research Data for Open Science in Psychology*. Manuscript under review. Preprint available on PsyArXiv.
+> Müller, R., Templ, M., & Strobl, C. (2026). *Anonymization of Research Data for Open Science in Psychology*. Manuscript under review.
 
 ## 📖 [Read the tutorial online](https://muellerroman.github.io/Anonymization-Tutorial/)
 

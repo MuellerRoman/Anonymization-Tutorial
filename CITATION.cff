@@ -14,17 +14,23 @@ abstract: >-
 authors:
   - family-names: Müller
     given-names: Roman
+    orcid: "https://orcid.org/0009-0007-2142-3896"
+    affiliation: "University of Applied Sciences and Arts Northwestern Switzerland"
   - family-names: Templ
     given-names: Matthias
+    orcid: "https://orcid.org/0000-0002-8638-5276"
+    affiliation: "University of Applied Sciences and Arts Northwestern Switzerland"
   - family-names: Strobl
     given-names: Carolin
+    orcid: "https://orcid.org/0000-0003-0952-3230"
+    affiliation: "University of Zurich"
 repository-code: "https://github.com/MuellerRoman/Anonymization-Tutorial"
 url: "https://muellerroman.github.io/Anonymization-Tutorial/"
 license:
   - MIT
   - CC-BY-4.0
 version: 1.0.0
-date-released: "2026-11-17"
+date-released: "2026-11-16"
 keywords:
   - anonymization
   - statistical disclosure control
@@ -39,10 +45,15 @@ preferred-citation:
   authors:
     - family-names: Müller
       given-names: Roman
+      orcid: "https://orcid.org/0009-0007-2142-3896"
+      affiliation: "University of Applied Sciences and Arts Northwestern Switzerland"
     - family-names: Templ
       given-names: Matthias
+      orcid: "https://orcid.org/0000-0002-8638-5276"
+      affiliation: "University of Applied Sciences and Arts Northwestern Switzerland"
     - family-names: Strobl
       given-names: Carolin
+      orcid: "https://orcid.org/0000-0003-0952-3230"
+      affiliation: "University of Zurich"
   year: 2026
-  status: preprint
-  journal: PsyArXiv
+  status: submitted
