@@ -1,0 +1,3 @@
+# Keep the original dataset byte-identical to the PsychArchives version
+# (MD5 b944b541d52fe73344b371083aa1c249). Git must not convert its line endings.
+data/*.csv -text

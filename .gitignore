@@ -1,0 +1,15 @@
+# RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Quarto output (the tutorial is published via the gh-pages branch)
+tutorial.html
+tutorial_files/
+/.quarto/
+*_cache/
+
+# OS files
+.DS_Store
+Thumbs.db

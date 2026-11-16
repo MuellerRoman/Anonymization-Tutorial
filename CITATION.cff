@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: >-
+  If you use this tutorial, please cite the article it accompanies
+  (see preferred-citation below).
+type: software
+title: "Anonymizing Psychological Research Data: An R Tutorial"
+abstract: >-
+  Online supplementary material to the article "Anonymization of Research
+  Data for Open Science in Psychology". A step-by-step R tutorial that
+  demonstrates disclosure risk assessment, statistical disclosure control
+  (global recoding, local suppression, rank swapping, PRAM), and utility
+  assessment for a psychological research dataset using the R package
+  sdcMicro.
+authors:
+  - family-names: Müller
+    given-names: Roman
+  - family-names: Templ
+    given-names: Matthias
+  - family-names: Strobl
+    given-names: Carolin
+repository-code: "https://github.com/MuellerRoman/Anonymization-Tutorial"
+url: "https://muellerroman.github.io/Anonymization-Tutorial/"
+license:
+  - MIT
+  - CC-BY-4.0
+version: 1.0.0
+date-released: "2026-11-17"
+keywords:
+  - anonymization
+  - statistical disclosure control
+  - open science
+  - psychology
+  - sdcMicro
+  - R
+  - Quarto
+preferred-citation:
+  type: article
+  title: "Anonymization of Research Data for Open Science in Psychology"
+  authors:
+    - family-names: Müller
+      given-names: Roman
+    - family-names: Templ
+      given-names: Matthias
+    - family-names: Strobl
+      given-names: Carolin
+  year: 2026
+  status: preprint
+  journal: PsyArXiv

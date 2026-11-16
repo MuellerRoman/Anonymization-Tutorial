@@ -1,0 +1,19 @@
+The dataset in this directory (SelfRelating_Depression_UK.csv) is
+
+  Copyright (c) 2020 R. D. Colman, K. C. Vione, Y. Kotera
+
+and is licensed under the Creative Commons Attribution-ShareAlike 4.0
+International License (CC BY-SA 4.0).
+
+  Source:  Colman, R. D., Vione, K. C., & Kotera, Y. (2020). Psychological
+           risk factors for depression in UK student and general populations:
+           Derailment, self-criticism and self-reassurance [Data set].
+           PsychArchives. https://doi.org/10.23668/psycharchives.4189
+
+  License: https://creativecommons.org/licenses/by-sa/4.0/
+  Full legal code: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+  Changes: none. The file is redistributed unmodified.
+
+This license applies only to the dataset in this directory. The code and text
+in the rest of the repository are licensed separately (see ../LICENSE).
