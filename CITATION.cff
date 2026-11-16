@@ -26,9 +26,7 @@ authors:
     affiliation: "University of Zurich"
 repository-code: "https://github.com/MuellerRoman/Anonymization-Tutorial"
 url: "https://muellerroman.github.io/Anonymization-Tutorial/"
-license:
-  - MIT
-  - CC-BY-4.0
+license: MIT
 version: 1.0.0
 date-released: "2026-11-16"
 keywords:
