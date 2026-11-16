@@ -1,11 +1,11 @@
 ---
-title: "Tutorial: Anonymizing Psychological Research Data"
+title: "Anonymizing Psychological Research Data: An R Tutorial"
 subtitle: "Online Supplement to the Article “Anonymization of Research Data for Open Science in Psychology”"
 author:
   - "Roman Müller"
   - "Matthias Templ"
   - "Carolin Strobl"
-date: "2026-11-17"
+date: "2026-11-16"
 format:
   html:
     toc: true
