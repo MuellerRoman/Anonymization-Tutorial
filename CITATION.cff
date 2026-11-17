@@ -4,6 +4,7 @@ message: >-
   (see preferred-citation below).
 type: software
 title: "Anonymizing Psychological Research Data: An R Tutorial"
+doi: "10.5281/zenodo.24287502"
 abstract: >-
   Online supplementary material to the article "Anonymization of Research
   Data for Open Science in Psychology". A step-by-step R tutorial that

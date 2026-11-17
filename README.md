@@ -1,5 +1,7 @@
 # Anonymizing Psychological Research Data: An R Tutorial
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24287502.svg)](https://doi.org/10.5281/zenodo.24287502)
+
 Online supplementary material to the article
 
 > Müller, R., Templ, M., & Strobl, C. (2026). *Anonymization of Research Data for Open Science in Psychology*. Manuscript under review.
@@ -87,6 +89,10 @@ The dataset is redistributed here unmodified under the [CC BY-SA 4.0](https://cr
 If you use this tutorial, please cite the article:
 
 > Müller, R., Templ, M., & Strobl, C. (2026). *Anonymization of Research Data for Open Science in Psychology*. Manuscript under review.
+
+To refer to the tutorial and code itself, cite the archived version on Zenodo:
+
+> Müller, R., Templ, M., & Strobl, C. (2026). *Anonymizing psychological research data: An R tutorial* [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.24287502
 
 ## License
 
