@@ -60,7 +60,7 @@ To illustrate the anonymization of a dataset in the context of psychological res
 
 For the purpose of demonstrating anonymization techniques, we exclusively used the raw data from the dataset. Specifically, we removed all standardized variables as well as any derived variables, such as composite scale scores calculated from the Likert items. Following the original study, we treat the scale scores as continuous variables, whereas the individual items are treated as ordinal. Although the originally published data has already been de-identified by deleting all direct identifiers, we will here demonstrate a more comprehensive approach to anonymization.
 
-First, we load the required R packages. Although we introduce the reader to the most relevant functionalities of these packages, it is not possible to provide a full description of all their features. For details not covered in this tutorial, please consult the respective documentation. For classical anonymization methods, we use the R package `sdcMicro` [@Templ_2015_Statistical], a well-established, state-of-the-art open-source tool that provides a wide range of data anonymization techniques. The required dataset is loaded by sourcing the R script `Data_Preparation.R`, which imports the dataset as an R data frame named `data` and creates several auxiliary R objects used in subsequent analyses.
+First, we load the required R packages. Although we introduce the reader to the most relevant functionalities of these packages, it is not possible to provide a full description of all their features. For details not covered in this tutorial, please consult the respective documentation. For classical anonymization methods, we use the R package `sdcMicro` [@Templ_2015_Statistical], a well-established, state-of-the-art open-source tool that provides a wide range of data anonymization techniques. The required dataset is loaded by sourcing the R script `data_preparation.R`, which imports the dataset as an R data frame named `data` and creates several auxiliary R objects used in subsequent analyses.
 
 ```{r load packages and data}
 #| message: false
@@ -137,7 +137,7 @@ By designating certain variables as sensitive, we make an important assumption: 
 
 For the purposes of this tutorial, we assume an adversary model in which potential adversaries do not have prior knowledge of individuals’ sensitive attributes. This assumption guides our risk assessment and the anonymization strategies we apply.
 
-In the `Data_Preparation.R` script sourced at the beginning, R objects containing the names of all relevant sensitive variables have already been created.
+In the `data_preparation.R` script sourced at the beginning, R objects containing the names of all relevant sensitive variables have already been created.
 
 - `depression_items`: contains the names of all depression items
 - `derailment_items`: contains the names of all derailment items
@@ -575,7 +575,7 @@ With `R0 = 0.70`, `r round(pct_swapped_70, 2)`% of the values were changed. Alth
 
 Which value of `R0` is appropriate depends on the specific utility and privacy-protection requirements. Note that, despite the application of rank swapping, some records may still violate the $l$-diversity criterion. However, the perturbation introduces uncertainty, meaning that a potential attacker can no longer be certain that an observed sensitive value corresponds to the original one. When data have been perturbed, users should be explicitly informed that the dataset does not represent an exact one-to-one correspondence with the original data.
 
-Because the scale scores for the variables `Derailment`, `Self_Criticism`, `Self_Reassurance`, and `Depression` are derived from the items, they need to be recalculated after rank swapping to ensure that the score values remain consistent with the item-level data. For ease of use, the authors have already created a function, `create_scores()`, in `Data_Preparation.R` that recalculates the scores.
+Because the scale scores for the variables `Derailment`, `Self_Criticism`, `Self_Reassurance`, and `Depression` are derived from the items, they need to be recalculated after rank swapping to ensure that the score values remain consistent with the item-level data. For ease of use, the authors have already created a function, `create_scores()`, in `data_preparation.R` that recalculates the scores.
 
 ```{r rank swap final dataset}
 # Recalculate the psychometric scores
