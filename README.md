@@ -88,7 +88,7 @@ The dataset is redistributed here unmodified under the [CC BY-SA 4.0](https://cr
 
 If you use this tutorial, please cite the article:
 
-> Müller, R., Templ, M., & Strobl, C. (2026). *Anonymization of Research Data for Open Science in Psychology*. Manuscript under review.
+> Müller, R., Templ, M., & Strobl, C. (2026). *Anonymization of research data for open science in psychology*. PsychArchives. https://doi.org/10.23668/psycharchives.22814
 
 To refer to the tutorial and code itself, cite the archived version on Zenodo:
 

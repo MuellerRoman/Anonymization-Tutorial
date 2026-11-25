@@ -40,7 +40,7 @@ keywords:
   - Quarto
 preferred-citation:
   type: article
-  title: "Anonymization of Research Data for Open Science in Psychology"
+  title: "Anonymization of research data for open science in psychology"
   authors:
     - family-names: Müller
       given-names: Roman
@@ -55,4 +55,6 @@ preferred-citation:
       orcid: "https://orcid.org/0000-0003-0952-3230"
       affiliation: "University of Zurich"
   year: 2026
-  status: submitted
+  status: preprint
+  journal: PsychArchives
+  doi: "10.23668/psycharchives.22814"

@@ -18,8 +18,8 @@ format:
     link-external-icon: true
     link-external-newwindow: true
     other-links:
-      - text: Journal article
-        href: https://www.doi.org/
+      - text: Article
+        href: https://doi.org/10.23668/psycharchives.22814
         icon: file-text
       - text: GitHub
         href: https://github.com/MuellerRoman/Anonymization-Tutorial
